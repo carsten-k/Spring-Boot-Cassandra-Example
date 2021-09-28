@@ -1,0 +1,6 @@
+cassandra:
+  auth:
+    bundle-location: ".auth/secure-connect-bundle.zip"
+    client-id: ${CASSANDRA_CLIENT_ID}
+    client-secret: ${CASSANDRA_CLIENT_SECRET}
+  keyspace: shopping_cart
